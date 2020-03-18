@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <title>Document</title>
+</head>
+<body>
+  <!-- NavBar -->
+  <div id='navbar'>
+    <div id='brand'>
+      <a href="#home">Glozzom</a>
+    </div>
+    <ul id='nav'>
+      <li><a href='#home'>Home</a></li>
+      <li><a href='#about'>About</a></li>
+      <li><a href='#meet-authors'>Meet The Authors</a></li>
+      <li><a href='#contact'>Contact</a></li>
+    </ul>
+  </div>
+  
+  <div class="flex-container">
+
+    <section id="home">
+      <!-- Slider -->
+      <div id="demo" class="carousel slide" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+      
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/image1.jpg" alt="Los Angeles">
+            <div class="carousel-caption text-right mb-5">
+              <h3 class="display-3">Header1</h3>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia, maxime!</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/image2.jpg" alt="Chicago">
+            <div class="carousel-caption text-center mb-5">
+              <h3 class="display-3">Header2</h3>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia, maxime!</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/image3.jpg" alt="New York">
+            <div class="carousel-caption text-left mb-5">
+              <h3 class="display-3">Header3</h3>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia, maxime!</p>
+            </div>
+          </div>
+        </div>
+      
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      
+      </div>
+      <!-- icons -->
+      <div class="textIcon-container">
+        <div class="textIcon">
+          <i class="huge whmcs icon"></i>
+          <h4>Turning Gears</h4>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, fuga!</p>
+        </div>
+        <div class="textIcon">
+          <i class="huge cloud icon"></i>
+          <h4>Turning Gears</h4>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, fuga!</p>
+        </div>
+        <div class="textIcon">
+          <i class="huge cart plus icon"></i>
+          <h4>Turning Gears</h4>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, fuga!</p>
+        </div>
+      </div>
+      <!-- get started divition -->
+      <div id="get-started">
+        <div class="black-overlay">
+          <div class="started-text">
+            <h3>Are you ready To get Started ?</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis temporibus saepe fugiat molestiae quia, exercitationem commodi fugit soluta magnam natus!</p>
+          </div>
+        </div>
+      </div>
+      <!-- laptop pic -->
+      <div id="laptop">
+        <div class="lap-text">
+          <h3>Lorem Ipsum.</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero eos vel ad?</p>
+          <button type="button">Learn More</button>
+        </div>
+        <div class="lap-pic">
+          <img src="img/laptop.png" alt="Laptop">
+        </div>
+      </div>
+      <!-- Sign-In and info -->
+      <div id="signin-info">
+        <div class="company-info">
+          <h5>Get In touch</h5>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
+          <h5>Address</h5>
+          <p>Lorem ipsum dolor sit amet consectetur.sadsadsad</p>
+          <h5>Email</h5>
+          <p>Glozzom@something.com</p>
+          <h5>Phone</h5>
+          <p>+9832759684221</p>
+        </div>
+        <div class="signin-form">
+          <h3>Please Fill out this form</h3>
+          <div class="inner-form">
+            <input type="text" placeholder="First Name">
+            <input type="text" placeholder="Last Name">
+            <input type="text" placeholder="Email">
+            <input type="text" placeholder="Phone Number">
+            <textarea rows="5" placeholder="Message"></textarea>
+            <button type="submit" value="Submit">Submit</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </div>
+  <footer>
+    Copyright 2020 &copy
+  </footer>
+  
+</body>
+</html>
